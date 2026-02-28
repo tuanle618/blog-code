@@ -47,6 +47,6 @@ pip install plotly          # optional — for interactive_3d plots
 | `NoiseType` | SDE formulation |
 |-------------|-----------------|
 | `NONE` | Deterministic Lorenz |
-| `ADDITIVE` | $dX = f(X)\,dt + \sqrt{2D}dW_t$ |
-| `MULTIPLICATIVE` | $dX = f(X)\,dt + X\sqrt{2D}dW_t$ |
+| `ADDITIVE` | $dX = f(X)dt + \sqrt{2D}dW_t$ |
+| `MULTIPLICATIVE` | $dX = f(X)dt + X\sqrt{2D}dW_t$ |
 | `ORNSTEIN_UHLENBECK` | Lorenz driven by OU-colored noise with correlation time $\tau$ |
